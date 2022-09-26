@@ -1,8 +1,10 @@
+
+//let
 let turn = 'x';
 let title = document.querySelector('.title');
-
 let squares = [];
 
+//num
 function end(num1,num2,num3){
 	title.innerHTML =`${squares[num1]}winner`;
 			document.getElementById('item'+num1).style.background ='#000'; 
@@ -51,6 +53,7 @@ function winner(){
 
 	}
 
+	//winner
 function game(id)
 {
 let element = document.getElementById(id);
